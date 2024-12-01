@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>QR Code Result</title>
+</head>
+<body>
+    <h1>QR Code Result</h1>
+    <p><strong>Content:</strong> {{ qr_code.content }}</p>
+    <a href="{% url 'upload_qr_code' %}">Upload Another</a>
+</body>
+</html>
