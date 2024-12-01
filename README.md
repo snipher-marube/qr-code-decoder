@@ -13,16 +13,24 @@ A Django web application that allows users to upload and decode QR code images.
 
 1. Clone the repository:
     ```bash 
-        clone https://github.com/snipher-marube/qr-code-decoder.git```
+        git clone https://github.com/snipher-marube/qr-code-decoder.git
+        cd qr-code-decoder
+    ```
 2. Create and activate a virtual environment:
     ```bash 
-    python3 -m venv venv```
+        python3 -m venv venv
+    ```
     ```bash 
-    source venv/bin/activate```
+    source venv/bin/activate
+    ```
 3. Install the required packages:
-```bash pip install -r requirements.txt```
+```bash 
+pip install -r requirements.txt
+```
 4. Run the Django server:
-```bash python manage.py runserver```
+```bash 
+python manage.py runserver
+```
 5. Access the web application at http://127.0.0.1:8000/
 
 ## Usage
